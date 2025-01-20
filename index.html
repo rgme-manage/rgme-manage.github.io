@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Research in Graduate Mathematics Education</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet"/>
+	<link rel="icon" type="image/png" href="/img/RGME.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style = "css">
+	html {
+		height:100%;
+	}
+	body {
+		max-width: 100%;
+		margin: auto;
+		font-family: 'Roboto', sans-serif;
+	}
+	h1 {
+		max-width: 100%;
+		margin: auto;
+		text-align: left;
+		padding-top:10%;
+		font-size: 50px;
+	}
+
+	/* Menu Stuff */
+	.sidebar {
+		margin: 0;
+		padding: 0;
+		width: 200px;
+		background-color: #2b2b2b;
+		position: fixed;
+		height: 100%;
+		overflow: auto;
+	}
+
+	.sidebar a {
+		display: block;
+		color: rgb(255, 255, 255);
+		padding: 16px;
+		text-decoration: none;
+	}
+	
+	.sidebar a.active {
+		background-color: #83442b;
+		color: white;
+	}
+
+	.sidebar a:hover:not(.active) {
+		background-color: #e9c9ae;
+		color: black;
+	}
+
+	div.content {
+		margin-left: 200px;
+		padding: 1px 16px;
+		height: auto;
+	}
+
+	@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+	}
+
+	@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+	}
+
+</style>
+
+<body>
+	<div class="sidebar">
+		<a href="#home" class="active">Home</a>
+		<a href = "./about" target = "_self">What is RGME?</a>
+		<a href = "./seminars" target = "_self">Seminar</a>
+		<a href = "./WG2024_RUME" target = "_self">Working Group from RUME 2024</a>
+		<a href = "./resources" target = "_self">Resources & Links</a>
+	</div>
+
+	<div class="content">
+		<div style="padding-left:16px; max-width: 500px;">
+			<h1>RESEARCH in GRADUATE MATHEMATICS EDUCATION</h1>
+		</div>
+
+		<div style="max-width: 400px; padding-left: 16px; padding-top: 1em;">
+			<p>We envision this group as becoming a space for formal research venues (or “homes”) for the rising significant interest in graduate mathematics education from both practitioners and researchers. </br> </br> We aim to provide space for researchers, leaders in graduate education, graduate mathematics faculty, and graduate students to convene and work collaboratively on research-based solutions to improving graduate mathematics education.</p>
+
+			<p>To read more about how to get involved or nominate yourself to give a talk in our seminar, you can click here: <a href="./about" target="_self">What is RGME?</a></p>
+		</div>
+	</div>
+
+</body>
+
+</html>
