@@ -21,6 +21,14 @@
 		font-family: 'Roboto', sans-serif;
 	}
 
+	img {
+		max-width: 30%;
+		max-height: 12em;
+		float: left;
+		padding:10px;
+		margin-right:10px;
+	}
+
 	/* Menu Stuff */
 	.topnav {
 		overflow: hidden;
@@ -74,9 +82,53 @@
 	}
 
 	div.PAD {
-		padding-bottom:2em;
+		padding-bottom:1em;
 	}
 
+
+	/* Column Cards */
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Float four columns side by side */
+	.column {
+	  float: left;
+	  width: 33%;
+	  padding: 10px 10px;
+	}
+
+	/* Remove extra left and right margins, due to padding in columns */
+	.row {margin: 0 0px;}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Style the counter cards */
+	.card {
+	  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	  padding: 16px;
+	  text-align: left;
+	  background-color: #f1f1f1;
+	}
+
+	/* Responsive columns - one column layout (vertical) on small screens */
+	@media screen and (max-width: 600px) {
+	  .column {
+	    width: 100%;
+	    display: block;
+	    margin-bottom: 20px;
+	  }
+	}
 
 </style>
 
@@ -96,19 +148,57 @@
 	</div>
 	  
 	<div style="padding-left:16px">
+
+		<p>You can access our working group materials here: <b>link pending</b>.</p>
 	
-		<h1>Abstract</h1>
-		<p>To be populated.</p>
+		<h2>Abstract</h2>
+		<p>Continuing the momentum from last year’s Research in Graduate Mathematics Education (RGME) working group session, we envision this year’s working group as a space for those interested in hearing about, discussing, or collaborating on RGME. Despite the importance of graduate education to the field of mathematics and mathematics education, there has been minimal research on graduate mathematics education, especially compared to undergraduate mathematics education. Recently, however, there has been significant emerging interest in graduate mathematics education from both practitioners and researchers. Still, there are few formal research venues (or “homes”) for this work to occur in a sustained fashion. This working group is intended to fill this gap by providing space for interested stakeholders to convene and work collaboratively on research-based solutions to improving graduate mathematics education. </p>
 
-		<div class="PAD"></div>
+		<p>Last year’s session featured several conversations and talks about the state of RGME (ranging from conversations about graduate student identity formation and critical conversations about qualifying exams to what it means to have a “student-focused” graduate program). This year, we will continue these conversations with a focus on ethical considerations and questions that ought to guide RGME and orient our approaches to research. Along the way, we will consider ways to be responsive to calls that all research in graduate education ought to attend to issues of (in)equity and consider if/how questions of equity (and ethics more generally) must be taken up differently in the unique context of graduate mathematics education. Building on research in STEM graduate education, we will consider orienting questions such as: <i>What does it mean to do ethical research in mathematics graduate education? and How can we develop ethical research collaborations with graduate students? When should we? </i> </p>
 
-		<h1>Agenda</h1>
-		<p>To be populated.</p>
+		<p>This working group features several activities including:</p> 
 
-		<div class="PAD"></div>
+		<ol>
+			<li>a Q&A panel session introducing participants to the field of RGME with researchers sharing the story of their research and how they got into the field,</li>
+			<li>break-out sessions to meet and learn from others with similar interests and share ongoing research,</li>
+			<li>a presentation and follow-up discussion focused on issues of ethics and equity and how they inform our approaches and methods in RGME, and</li>
+			<li>time for forming and developing collaborations, having longer discussions on a topic of interest, or receiving feedback on your current research or mentoring on how to get started in RGME.</li>
+		</ol>
+
+		<h2>Agenda</h2>
+		<p>The working group is from 8AM to 12 NOON Eastern Time, and this is the breakdown of our time:</p>
+		<ul>
+			<li>8:00 - 8:15, Welcome, Introductions, Agenda, & Goals</li>
+			<li>8:15 - 9:00, Panel of RGME Researchers with Q&A</li>
+			<li>9:00 - 9:30, Roundtable Break-Out Groups by Areas of Interest</li>
+			<li>9:30 - 10:15, Discussion on Ethics and Equity in RGME</li>
+			<li>10:15 - 10:30, Break</li>
+			<li>10:30 - 11:40, Collaboration, Mentoring, and Discussion Groups</li>
+			<li>11:40 - 12:00, Wrap-Up and Planning for Future Working Group Activities</li>
+		</ul>
 	
-		<h1>Panel</h1>
-		<p>To be populated.</p>
+		<h2>Panel</h2>
+		<p>After a brief introduction to the working group, we have a panel of three researchers from the RGME community with diverse research specialities and interests. Below you can read about each of them!</p>
+
+		<div class="row">
+			<div class="column">
+				<div class="card"><h3>Johan Benedict Cristobal (Example)</h3> <h4>University of Nebraska-Lincoln</h4>
+					<p><img src ="https://www.johanmath.com/img/Profile-2024.png"> Cristobal's research in graduate mathematics education focuses on narratives of teaching from mathematics graduate student. Through this work, he aims to extract how mathematics graduate students (future professors) begin to understand what it means for them to teach and for their students to learn college mathematics. This has been useful in understanding how cultures of exclusion and inclusive persist or flourish in mathematics classrooms and communities.</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card"><h3>Name</h3> <h4>University</h4>
+					<p><img src = "https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus nunc eget enim accumsan efficitur. Nunc turpis felis, ultrices quis nibh hendrerit, tempus vehicula ipsum. Donec quis sodales ante. Nulla facilisi. Mauris dictum cursus euismod. Nam semper non justo in sagittis. Proin tempor lacus id mi porttitor interdum. Integer a ante volutpat, posuere magna vel, auctor felis. Aenean efficitur nisi ut magna egestas laoreet. Vestibulum dapibus, nisi sit amet posuere aliquam, nibh ligula elementum est.</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card"><h3>Name</h3> <h4>University</h4>
+					<p><img src = "https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus nunc eget enim accumsan efficitur. Nunc turpis felis, ultrices quis nibh hendrerit, tempus vehicula ipsum. Donec quis sodales ante. Nulla facilisi. Mauris dictum cursus euismod. Nam semper non justo in sagittis. Proin tempor lacus id mi porttitor interdum. Integer a ante volutpat, posuere magna vel, auctor felis. Aenean efficitur nisi ut magna egestas laoreet. Vestibulum dapibus, nisi sit amet posuere aliquam, nibh ligula elementum est.</p>
+				</div>
+			</div>
+		</div>
 
 	</div>
 	  
